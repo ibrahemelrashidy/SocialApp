@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter/material.dart';
 import 'package:socialapp/features/presentation/views/description_view/widgets/custom_profile_with_add.dart';
 
-class CommentsButton extends StatefulWidget {
+class  CommentsButton extends StatefulWidget {
   @override
   _CommentsButtonState createState() => _CommentsButtonState();
 }

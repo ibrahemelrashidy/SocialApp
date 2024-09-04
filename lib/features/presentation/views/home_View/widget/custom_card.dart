@@ -21,7 +21,11 @@ class CustomCard extends StatelessWidget {
             Container(
                 width: 160,
                 height: 130,
-                child: Image.asset(fit: BoxFit.fill, image)),
+                child: ClipRRect(
+                    borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(12),
+                        bottomLeft: Radius.circular(12)),
+                    child: Image.asset(fit: BoxFit.fill, image))),
             Column(
               children: [
                 Column(
